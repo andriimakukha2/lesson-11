@@ -1,0 +1,14 @@
+.header {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background: var(--bg-main);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 950px) {
+  .header {
+    padding-top: 30px;
+  }
+}
