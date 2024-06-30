@@ -343,27 +343,6 @@ h1, h2, h3, h4, h5, h6 {
           box-sizing: border-box;
 }
 
-@media screen and (max-width: 1250px) {
-  .center {
-    padding-left: calc(50vw - 450px);
-    padding-right: calc(50vw - 450px);
-  }
-}
-@media screen and (max-width: 950px) {
-  .center {
-    padding-left: calc(50vw - 350px);
-    padding-right: calc(50vw - 350px);
-  }
-}
-@media screen and (max-width: 750px) {
-  body {
-    font-size: 12px;
-  }
-  .center {
-    padding-left: calc(50vw - 300px);
-    padding-right: calc(50vw - 300px);
-  }
-}
 .btn {
   background: var(--color-accent);
   color: var(--color-contrast);
@@ -393,13 +372,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.7;
 }
 
-@media screen and (max-width: 750px) {
-  .btn {
-    min-height: 45px;
-    padding: 13px 30px;
-    max-width: 180px;
-  }
-}
 .header {
   padding-top: 80px;
   padding-bottom: 20px;
@@ -409,11 +381,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-@media screen and (max-width: 950px) {
-  .header {
-    padding-top: 30px;
-  }
-}
 .nav__list {
   padding: 0;
   margin: 0;
@@ -445,11 +412,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-@media screen and (max-width: 750px) {
-  .nav__list {
-    gap: 20px;
-  }
-}
 .offer {
   padding-top: 142px;
   padding-bottom: 142px;
@@ -468,28 +430,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 60px;
 }
 
-@media screen and (max-width: 950px) {
-  .offer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .offer {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .offer__content {
-    max-width: 350px;
-  }
-  .offer__title {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-  .offer__desc {
-    margin-bottom: 30px;
-  }
-}
 .about-me {
   background: var(--bg-accent);
   padding: 100px 400px;
@@ -516,18 +456,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 20px;
 }
 
-@media screen and (max-width: 750px) {
-  .about-me {
-    padding: 7%;
-  }
-  .about-me__content {
-    margin: 0 100px;
-  }
-  .about-me__title {
-    font-size: 32px;
-    margin: 0 0 20px;
-  }
-}
 img {
   display: block;
   max-width: 100%;
@@ -581,16 +509,6 @@ img {
   margin: 0;
 }
 
-@media screen and (max-width: 950px) {
-  .project__container {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    margin-left: 110px;
-  }
-}
 .work {
   background: var(--bg-main);
   padding-top: 100px;
@@ -633,11 +551,6 @@ img {
   translate: -50% -50%;
 }
 
-@media screen and (max-width: 950px) {
-  .work__content {
-    margin: 0 100px;
-  }
-}
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
